@@ -47,6 +47,11 @@ sudo apt install code -y
 # ================== firefox ==================  #
 sudo apt install --only-upgrade firefox
 
+# ================== chrome ==================  #
+sudo apt update -qq
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
 # ================== snapcraft ==================  #
 sudo apt install snapd
 # snap - spotfy 
