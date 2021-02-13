@@ -9,6 +9,9 @@
 cd ~
 sudo apt update -qq
 
+# =========== Data transfers ============= #
+sudo apt install wget curl
+
 
 # ================== git ==================  #
 sudo apt install git -y
